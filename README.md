@@ -20,8 +20,8 @@ real Slack cards and buttons, and real sandbox payment links. The companies and 
 The full video also shows an email with two numbers, where the admin types the amount, and an email
 that tries to give the AI orders. [Watch it as a video](docs/demo.mp4).
 
-Till Inbox is the email version of [Till](https://github.com/Cyvid7-Darus10/till) and
-[Till in DMs](https://github.com/Cyvid7-Darus10/till-dm). It reaches Airwallex through the Airwallex
+Till Inbox is the email version of [Till](https://github.com/cyruspastelero/till) and
+[Till in DMs](https://github.com/cyruspastelero/till-dm). It reaches Airwallex through the Airwallex
 MCP server. [Vercel Connect](https://vercel.com/docs/connect) holds the Slack and Airwallex logins.
 Only the email provider needs keys: an API key and a webhook secret.
 

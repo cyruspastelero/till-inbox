@@ -69,7 +69,7 @@ Till Inbox keeps no database. A pending request travels inside the Slack buttons
   email as JSON; check how each one signs its webhook.
 - **Invoices instead of payment links.** Replace `lib/requests/link-params.ts` and
   `lib/airwallex/payment-links.ts` with invoice calls, and add the billing scopes to
-  `lib/airwallex/tool-policy.ts`. [Till in DMs](https://github.com/Cyvid7-Darus10/till-dm) shows the
+  `lib/airwallex/tool-policy.ts`. [Till in DMs](https://github.com/cyruspastelero/till-dm) shows the
   invoice calls and how it checks the invoice it created.
 - **Another chat tool.** The flow talks to `ApprovalChat` in `lib/flow/ports.ts`. The Chat SDK has
   adapters for Teams, Google Chat and others; `lib/slack/bot.ts` is the part to rewrite.
